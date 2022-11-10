@@ -1,0 +1,13 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    background: hsl(220, 15%, 55%);
+
+}
+
+.card {
+    background: hsl(255,255,255);
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
