@@ -4,12 +4,19 @@
     --gray-blue: hsl(220, 15%, 55%);
     --dark-blue: hsl(218, 44%, 22%);
     --dark-blue-shadow: hsla(218, 44%, 22%, 0.1);
+    height: 100%;
 }
 
 body {
     font-family: 'Outfit', sans-serif;
     background: var(--light-gray);
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    height: 100%;
+    text-align: center;
 }
 
 .card {
@@ -17,8 +24,6 @@ body {
     max-width: 300px;
     padding: 1rem;
     border-radius: 2rem;
-    text-align: center;
-    margin: 2rem auto;
     font-size: 0.9375rem;
     color: var(--gray-blue);
     box-shadow: 0px 4px 24px 0px var(--dark-blue-shadow);
